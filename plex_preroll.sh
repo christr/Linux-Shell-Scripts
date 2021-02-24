@@ -2,7 +2,7 @@
 ##### Plex Preroll (plex_preroll.sh) version 1.0 #####
 ##### Written by Chris Richardson (https://github.com/christr) on 2021-02-21
 
-### This Linux script will randomly change your Plex prerolls based on the time of year or holiday seasons. An excellent place to obtain Plex and other prerolls is at https://prerolls.video/plex.
+### This Linux script will randomly change your Plex prerolls based on the time of year or holiday season. An excellent place to obtain Plex and other prerolls is at https://prerolls.video/plex.
 ### Schedule this script to run at any interval of your choosing in cron (https://www.howtogeek.com/101288/how-to-schedule-tasks-on-linux-an-introduction-to-crontab-files).
 ### shuf is required for the script to work. It's included in the coreutils package of nearly all Linux distributions.
 
