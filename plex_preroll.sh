@@ -9,7 +9,7 @@
 # Enter the directory containing all your Preroll subdirectories. Example path given below.
 Prerolls=/storage/Videos/Prerolls
 
-# Enter the path to where the script will always copy the preroll to (see advanced instructions at https://support.plex.tv/articles/202920803-extras/) to match the full path you defined in Plex. Example path given below.
+# Enter the path to where the script will always copy the preroll to (see advanced instructions at https://support.plex.tv/articles/202920803-extras/). Match the full path you defined in Plex. Example path given below.
 Preroll=/storage/Videos/preroll.mp4
 
 # Adjust the dates below (MM-DD) for when you want seasons to start or end. Times are always at exactly midnight for the given date.
