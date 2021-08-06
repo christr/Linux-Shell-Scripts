@@ -37,7 +37,7 @@ curl -H "Content-Type: application/json" \
         https://api.linode.com/v4/domains/$DOMAIN_ID/records/$RESOURCE_ID
 }
 
-WAN_IP=`curl -s ifconfig.me/ip`
+WAN_IP=`curl -H 'Cache-Control: no-cache' -s ifconfig.me/ip`
 if [ -f $HOME/.wan_ip.txt ]; then
         OLD_WAN_IP=`cat $HOME/.wan_ip.txt`
 else
